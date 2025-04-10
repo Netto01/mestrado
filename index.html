@@ -12,25 +12,21 @@
       padding: 20px;
       line-height: 1.6;
     }
-
     h1 {
       text-align: center;
       font-size: 2em;
       margin-bottom: 10px;
     }
-
     h1 small {
       font-size: 0.6em;
       color: #7f8c8d;
     }
-
     h2 {
       color: #34495e;
       border-bottom: 2px solid #ccc;
       padding-bottom: 4px;
       margin-top: 40px;
     }
-
     .agenda-table {
       width: 100%;
       border-collapse: collapse;
@@ -38,7 +34,6 @@
       background-color: #fff;
       box-shadow: 0 2px 6px rgba(0,0,0,0.05);
     }
-
     .agenda-table th, .agenda-table td {
       border: 1px solid #e1e4e8;
       padding: 10px;
@@ -46,37 +41,29 @@
       font-size: 0.95em;
       vertical-align: top;
     }
-
     .agenda-table th {
       background-color: #2c3e50;
       color: #ecf0f1;
     }
-
     .agenda-table tr:nth-child(even) {
       background-color: #f9f9f9;
     }
-
     .agenda-table tr:hover {
       background-color: #f1f1f1;
     }
-
     .footer {
       text-align: center;
       font-size: 0.8em;
       color: #7f8c8d;
       margin-top: 40px;
     }
-
-    /* Responsividade aprimorada */
     @media (max-width: 768px) {
       .agenda-table {
         border: none;
       }
-
       .agenda-table thead {
         display: none;
       }
-
       .agenda-table tr {
         display: block;
         margin-bottom: 20px;
@@ -86,7 +73,6 @@
         overflow: hidden;
         padding: 12px;
       }
-
       .agenda-table td {
         display: flex;
         justify-content: space-between;
@@ -95,11 +81,9 @@
         border-bottom: 1px solid #eee;
         font-size: 0.95em;
       }
-
       .agenda-table td:last-child {
         border-bottom: none;
       }
-
       .agenda-table td::before {
         content: attr(data-label);
         font-weight: bold;
@@ -113,85 +97,61 @@
 <body>
   <h1>Agenda do Mestrado<br><small>Abril a Julho de 2025</small></h1>
 
-  <h2>April/2025</h2>
-  <table class="dataframe agenda-table">
-    <thead>
-      <tr>
-        <th>Data</th>
-        <th>Atividade</th>
-        <th>Disciplina</th>
-      </tr>
-    </thead>
+  <h2>Abril/2025</h2>
+  <table class="agenda-table">
+    <thead><tr><th>Data</th><th>Atividade</th><th>Disciplina</th></tr></thead>
     <tbody>
-      <tr><td>11/04/2025</td><td>Aula presencial – Debate Administração Pública Societal X Gerencial (textos obrigatórios) – Responsáveis: M01 a M03, M09 e M10. Leitura obrigatória dos textos de Paula, Bresser-Pereira, Moura e outros.</td><td>Geral / Outros</td></tr>
-      <tr><td>12/04/2025</td><td>Aula presencial – Temas emergentes (manhã) e Economia Institucional (tarde) – Manhã: Bancos Comunitários de Desenvolvimento e Teoria da Dádiva. Tarde: Economia Institucional (textos North, Dequech, Evans, Polanyi).</td><td>Geral / Outros</td></tr>
-      <tr><td>15/04/2025</td><td>Seminário: 'Como as Democracias Morrem'</td><td>Teoria do Desenvolvimento Regional I</td></tr>
-      <tr><td>22/04/2025</td><td>Seminário: 'Universidade e Território'</td><td>Teoria do Desenvolvimento Regional I</td></tr>
-      <tr><td>25/04/2025</td><td>Seminário: Redes Sociotécnicas da Agricultura Familiar</td><td>Teoria do Desenvolvimento Regional I</td></tr>
-      <tr><td>30/04/2025</td><td>📌 Entrega da resenha dos Textos 3 e 20 (Prof. Nilton) – Referente à disciplina com Prof. Nilton. Resenha dos textos indicados da obra 'A Cultura Importa'.</td><td>Geral / Outros</td></tr>
+      <tr><td>11/04/2025</td><td>Debate Administração Pública Societal x Gerencial</td><td>Políticas Públicas, Instituições e Desenvolvimento Socioterritorial</td></tr>
+      <tr><td>12/04/2025</td><td>Temas emergentes + Economia Institucional</td><td>Políticas Públicas, Instituições e Desenvolvimento Socioterritorial</td></tr>
+      <tr><td>15/04/2025</td><td>Seminário: Como as Democracias Morrem</td><td>Teoria do Desenvolvimento Regional I</td></tr>
+      <tr><td>22/04/2025</td><td>Seminário: Universidade e Território</td><td>Teoria do Desenvolvimento Regional I</td></tr>
+      <tr><td>25/04/2025</td><td>Seminário: Redes Sociotécnicas da Agricultura Familiar</td><td>Inovação e Inclusão Produtiva Rural</td></tr>
+      <tr><td>30/04/2025</td><td>Aula Magna com prof. Sérgio Schneider</td><td>Evento Institucional / Geral</td></tr>
     </tbody>
   </table>
 
-  <h2>May/2025</h2>
-  <table class="dataframe agenda-table">
-    <thead>
-      <tr>
-        <th>Data</th>
-        <th>Atividade</th>
-        <th>Disciplina</th>
-      </tr>
-    </thead>
+  <h2>Maio/2025</h2>
+  <table class="agenda-table">
+    <thead><tr><th>Data</th><th>Atividade</th><th>Disciplina</th></tr></thead>
     <tbody>
-      <tr><td>02/05/2025</td><td>Seminário: Organização do Quadro Social (OQS)</td><td>Teoria do Desenvolvimento Regional I</td></tr>
-      <tr><td>06/05/2025</td><td>Seminário: Reflexões sobre a Amazônia no século XXI – Teoria do Desenvolvimento Regional I</td><td>Teoria do Desenvolvimento Regional I</td></tr>
-      <tr><td>09/05/2025</td><td>📌 Entrega do planejamento do trabalho final (Prof. Diego) – Enviar até essa data por e-mail ao prof. Diego, pode ser em grupo (até 3 alunos).</td><td>Políticas Públicas, Instituições e Desenvolvimento Socioterritorial</td></tr>
-      <tr><td>09/05/2025</td><td>Aula presencial – Decolonialidade e Inclusão Produtiva Rural I – Temas: Decolonialidade e Gestão Social e Território (textos Cunha, Hernandez, Cançado, Milagres). Seminário: Inclusão Produtiva Rural I</td><td>Seminários Temáticos</td></tr>
-      <tr><td>10/05/2025</td><td>Aula presencial – Debate resenhas (manhã) e Desenvolvimento Territorial (tarde) – Debate de resenhas (textos ST. Louis, Oliveira, Guimarães, Bariani). Tarde: Discussão sobre desenvolvimento territorial.</td><td>Geral / Outros</td></tr>
-      <tr><td>13/05/2025</td><td>Seminário: Formação do Brasil Contemporâneo + Segurança e Crime no TO</td><td>Teoria do Desenvolvimento Regional I</td></tr>
-      <tr><td>16/05/2025</td><td>Aula remota – Palestra Prof. Antônio Carlos Brandão (IPPUR/UFRJ)</td><td>Políticas Públicas, Instituições e Desenvolvimento Socioterritorial</td></tr>
-      <tr><td>17/05/2025</td><td>Apresentação da ideia de dissertação (constructos aplicados) – Apresentação da proposta de dissertação e relação com constructos como gestão social, território e instituições.</td><td>Políticas Públicas, Instituições e Desenvolvimento Socioterritorial</td></tr>
-      <tr><td>20/05/2025</td><td>Seminário: Geografia e Economia – Teoria do Desenvolvimento Regional I</td><td>Teoria do Desenvolvimento Regional I</td></tr>
-      <tr><td>23/05/2025</td><td>Seminário: Inclusão Produtiva Rural II</td><td>Teoria do Desenvolvimento Regional I</td></tr>
+      <tr><td>02/05/2025</td><td>Seminário: Organização do Quadro Social</td><td>Inovação e Inclusão Produtiva Rural</td></tr>
+      <tr><td>06/05/2025</td><td>Seminário: Reflexões sobre a Amazônia</td><td>Teoria do Desenvolvimento Regional I</td></tr>
+      <tr><td>09/05/2025</td><td>Entrega do planejamento do trabalho final</td><td>Inovação e Inclusão Produtiva Rural</td></tr>
+      <tr><td>09/05/2025</td><td>Seminário: Decolonialidade e Gestão Social e Território</td><td>Inovação e Inclusão Produtiva Rural</td></tr>
+      <tr><td>10/05/2025</td><td>Debate de resenhas + Desenvolvimento Territorial</td><td>Teoria do Desenvolvimento Regional I</td></tr>
+      <tr><td>13/05/2025</td><td>Seminário: Formação do Brasil Contemporâneo</td><td>Teoria do Desenvolvimento Regional I</td></tr>
+      <tr><td>16/05/2025</td><td>Palestra Prof. Antônio Carlos Brandão</td><td>Políticas Públicas, Instituições e Desenvolvimento Socioterritorial</td></tr>
+      <tr><td>17/05/2025</td><td>Apresentação da ideia de dissertação</td><td>Políticas Públicas, Instituições e Desenvolvimento Socioterritorial</td></tr>
+      <tr><td>20/05/2025</td><td>Seminário: Geografia e Economia</td><td>Teoria do Desenvolvimento Regional I</td></tr>
+      <tr><td>23/05/2025</td><td>Seminário: Inclusão Produtiva Rural II</td><td>Inovação e Inclusão Produtiva Rural</td></tr>
       <tr><td>27/05/2025</td><td>Seminário: Território e Poder</td><td>Teoria do Desenvolvimento Regional I</td></tr>
-      <tr><td>30/05/2025</td><td>Seminário: Políticas Públicas de Inclusão Produtiva da Agricultura Familiar</td><td>Teoria do Desenvolvimento Regional I</td></tr>
+      <tr><td>30/05/2025</td><td>Seminário: Políticas de Inclusão Produtiva da Agricultura Familiar</td><td>Inovação e Inclusão Produtiva Rural</td></tr>
     </tbody>
   </table>
 
-  <h2>June/2025</h2>
-  <table class="dataframe agenda-table">
-    <thead>
-      <tr>
-        <th>Data</th>
-        <th>Atividade</th>
-        <th>Disciplina</th>
-      </tr>
-    </thead>
+  <h2>Junho/2025</h2>
+  <table class="agenda-table">
+    <thead><tr><th>Data</th><th>Atividade</th><th>Disciplina</th></tr></thead>
     <tbody>
-      <tr><td>03/06/2025</td><td>Seminário: Governança Territorial + Vulnerabilidade dos apenados no TO</td><td>Teoria do Desenvolvimento Regional I</td></tr>
-      <tr><td>06/06/2025</td><td>Seminário: Situação dos Serviços de Extensão Rural</td><td>Teoria do Desenvolvimento Regional I</td></tr>
+      <tr><td>03/06/2025</td><td>Seminário: Governança Territorial + Vulnerabilidade dos apenados</td><td>Teoria do Desenvolvimento Regional I</td></tr>
+      <tr><td>06/06/2025</td><td>Seminário: Situação dos Serviços de Extensão Rural</td><td>Inovação e Inclusão Produtiva Rural</td></tr>
       <tr><td>10/06/2025</td><td>Seminário: Desenvolvimento Regional em Perspectiva Comparada</td><td>Teoria do Desenvolvimento Regional I</td></tr>
-      <tr><td>13/06/2025</td><td>Seminário: Mercados da Agricultura Familiar</td><td>Teoria do Desenvolvimento Regional I</td></tr>
+      <tr><td>13/06/2025</td><td>Seminário: Mercados da Agricultura Familiar</td><td>Inovação e Inclusão Produtiva Rural</td></tr>
       <tr><td>17/06/2025</td><td>Seminário: Desenvolvimento Regional – Um Problema Político</td><td>Teoria do Desenvolvimento Regional I</td></tr>
-      <tr><td>20/06/2025</td><td>Apresentação do Trabalho Final – Parte 1</td><td>Geral / Outros</td></tr>
+      <tr><td>20/06/2025</td><td>Apresentação do Trabalho Final – Parte 1</td><td>Inovação e Inclusão Produtiva Rural</td></tr>
     </tbody>
   </table>
 
-  <h2>July/2025</h2>
-  <table class="dataframe agenda-table">
-    <thead>
-      <tr>
-        <th>Data</th>
-        <th>Atividade</th>
-        <th>Disciplina</th>
-      </tr>
-    </thead>
+  <h2>Julho/2025</h2>
+  <table class="agenda-table">
+    <thead><tr><th>Data</th><th>Atividade</th><th>Disciplina</th></tr></thead>
     <tbody>
-      <tr><td>20/07/2025</td><td>Apresentação do Trabalho Final – Parte 2</td><td>Geral / Outros</td></tr>
+      <tr><td>20/07/2025</td><td>Apresentação do Trabalho Final – Parte 2</td><td>Inovação e Inclusão Produtiva Rural</td></tr>
     </tbody>
   </table>
 
   <div class="footer">
-    Atualizado por Neto em 09/04/2025 as 22h49min horário de Brasília · Universidade Federal do Tocantins · PPGDR
+    Atualizado por Neto em 09/04/2025 às 23h20min (horário de Brasília) · Universidade Federal do Tocantins · PPGDR
   </div>
 
   <script>
